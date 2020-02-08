@@ -8,8 +8,10 @@
 </head>
 
 <body>
-	<div class="container">
-
+	<div class="container" id="mainDiv">
+		<div id="bypassme" data-html2canvas-ignore="true">
+			<a href="Resume.pdf" download="Maulik-Resume.pdf" id="download">Download Resume</a>
+		</div>
 		<div class="main">
 			<h1 class="title"><a href="https://www.linkedin.com/in/mauliksompura/">Maulik Sompura</a></h1>
 
@@ -36,7 +38,8 @@
 		<div class="section">
 			<h2 class="title">Summary</h2>
 			<div class="content">
-				<p>Full-stack developer with 2.5+ years of experience in web development with working on industry leading
+				<p>Full-stack developer with 2.5+ years of experience in web development with working on industry
+					leading
 					technologies. Good at making REST APIs and Business logic.</p>
 			</div>
 		</div>
@@ -47,10 +50,10 @@
 				<table>
 					<thead>
 						<th>
-							<h3>Primary:</h3>
+							<h2>Primary:</h2>
 						</th>
 						<th>
-							<h3>Familiar with:</h3>
+							<h2>Familiar with:</h2>
 						</th>
 					</thead>
 					<tr>
@@ -129,7 +132,7 @@
 			</div>
 		</div>
 
-		<div class="section">
+		<!-- <div class="section">
 			<h2 class="title">Languages Known</h2>
 			<div class="content">
 				<p>Gujarati | English | Hindi </p>
@@ -141,15 +144,25 @@
 			<div class="content">
 				<p>Photography | Travelling | Reading | Movies/TV series</p>
 			</div>
-		</div>
+		</div> -->
 
-		<div class="section">
-			<div class="thank">
-				<h3>Thanks,<br />Maulik S. Sompura</h3>
-			</div>
-		</div>
+
 
 	</div>
+	<footer class="section">
+		<div class="thank">
+			<h3>Thanks,<br />Maulik S. Sompura</h3>
+		</div>
+	</footer>
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script>
+	$(document).ready(function () {
+		$('#download').click(function () {
+
+		});
+	});
+</script>
 
 </html>

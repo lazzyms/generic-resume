@@ -18,7 +18,7 @@ a:hover {
 }
 
 .main .title {
-	font-size: 2.5em;
+	font-size: 48px;
 	text-transform: uppercase;
 	margin-bottom: 10px;
 }
@@ -31,7 +31,7 @@ a:hover {
     list-style-type: none;
     padding: 0;
 	margin: 0;
-	font-size:larger;
+	font-size:20px;
 }
 
 #contact a:hover {
@@ -72,12 +72,29 @@ div.hr {
 	text-align: left;
 }
 
-.skillList {
-	margin-right:50px;
+table h2 {
+	font-size: 18px;
 }
 
-.skillList li {
-	font-size: medium;	
+.skillList {
+	margin-right:50px;
+	font-size: 20px;
+}
+
+@media (max-width:1024px) {
+	.skillList {
+		font-size: 32px;
+	}
+
+	table h2 {
+		font-size: 28px;
+	}
+	
+}
+
+
+.skillList > ul >li{
+	font-size: 20px;	
 }
 
 .inline {
@@ -112,7 +129,7 @@ div.hr {
 
 .content p {
 	margin: 0;
-	font-size: medium;
+	font-size: 20px;
 }
 
 .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
@@ -124,11 +141,49 @@ div.hr {
 }
 
 .work li {
-	font-size: medium;
+	font-size: 20px;
 }
 
 .thank {
 	background-color: rgb(1, 194, 130);
-	padding-left:50px;
+	padding:10px;
+	padding-right:100px;
 	color: beige;
+	text-align: right;
+}
+
+footer {
+	bottom:0;
+	margin-top:50px;
+}
+
+#bypassme {
+	position: absolute;
+	right:5%;
+	top:10%;
+} 
+
+#download {
+	border-radius: 5px;
+	border:0;
+	cursor: pointer;
+	background-color:rgb(1, 194, 130);
+	color:white;
+	height: 50px;
+	font-size: 20px;
+	font-family: Lato;
+	padding:20px !important;
+}
+
+#download:hover {
+	border-radius: 5px;
+	border:0;
+	cursor: pointer;
+	background-color: rgb(2, 233, 156);
+}
+
+@media print {
+	#bypassme {
+		display: none;
+	}
 }
