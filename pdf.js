@@ -199,17 +199,17 @@ var MD5 = function (string) {
     return temp.toLowerCase();
 }
 
-// $('#download').click(function (e) {
-// e.preventDefault()
-let accesskey = '3d49e82bf95f515139137c8d60dcb60f'
-let secretKey = MD5('https://me.mauliksompura.in/generic-resumealohamora')
+$('#download').click(function (e) {
+    e.preventDefault()
+    let accesskey = '3d49e82bf95f515139137c8d60dcb60f'
+    let secretKey = MD5('https://me.mauliksompura.in/generic-resumealohamora')
 
-let baseUrl = 'http://api.pdflayer.com/api/convert'
-let myUrl = encodeURI('https://me.mauliksompura.in/generic-resume')
+    let baseUrl = 'http://api.pdflayer.com/api/convert'
+    let myUrl = encodeURI('https://me.mauliksompura.in/generic-resume')
 
-let pageSize = 'Tabloid'
+    let pageSize = 'Tabloid'
 
 
-location.href = baseUrl + '?access_key=' + accesskey + '&secret_key=' + secretKey + '&test=1&document_name=maulik-resume&document_url=' + myUrl + '&use_print_media=1&page_size=' + pageSize + '&viewport=2560x1440&watermark_in_background=0&creator=mauliksompura.in&author=Maulik&custom_unit=px&margin_top=100&margin_bottom=0&margin_left=0&margin_right=0&force=1'
-// })
+    location.href = baseUrl + '?access_key=' + accesskey + '&secret_key=' + secretKey + '&test=1&document_name=maulik-resume&document_url=' + myUrl + '&use_print_media=1&page_size=' + pageSize + '&viewport=2560x1440&watermark_in_background=0&creator=mauliksompura.in&author=Maulik&custom_unit=px&margin_top=50&margin_bottom=0&margin_left=0&margin_right=0&force=1'
+})
 
