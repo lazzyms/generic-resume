@@ -10,7 +10,7 @@
 <body>
 	<div class="container" id="mainDiv">
 		<div id="bypassme" data-html2canvas-ignore="true">
-			<a href="Resume.pdf" download="Maulik-Resume.pdf" id="download">Download Resume</a>
+			<a download="Maulik-Resume.pdf" id="download">Download Resume</a>
 		</div>
 		<div class="main">
 			<h1 class="title"><a href="https://www.linkedin.com/in/mauliksompura/">Maulik Sompura</a></h1>
@@ -30,6 +30,9 @@
 					<li>
 						<img src="image/github.png"> <span><a href="https://github.com/lazzyms">lazzyms</a></span>
 					</li>
+					<li>
+						<img src="image/skype.png"> <span><a href="https://join.skype.com/invite/Ygy87xceciqE">mauliksompura@live.com</a></span>
+					</li>
 				</ul>
 			</div>
 			<div class="hr"></div>
@@ -38,7 +41,7 @@
 		<div class="section">
 			<h2 class="title">Summary</h2>
 			<div class="content">
-				<p>Full-stack developer with 2.5+ years of experience in web development with working on industry
+				<p>Full-stack developer with <span class="years"></span> of experience in web development with working on industry
 					leading
 					technologies. Good at making REST APIs and Business logic.</p>
 			</div>
@@ -60,18 +63,19 @@
 						<td>
 							<ul class="skillList">
 								<li>NodeJs</li>
+								<li>LoopbackJs (NodeJs Framework)</li>
 								<li>PHP (CodeIgniter, Laravel)</li>
-								<li>LoopbackJs</li>
 								<li>MongoDb</li>
 								<li>MySQL</li>
 								<li>ReactJs</li>
-								<li>Web Design (HTML, CSS, JS)</li>
+								<li>Web Designing (HTML, CSS, JS)</li>
 							</ul>
 						</td>
 						<td>
 							<ul class="skillList">
 								<li>AWS instance setup</li>
 								<li>Firebase Authentication</li>
+								<li>Basics of Docker and Gitlab CI/CD</li>
 								<li>ElectronJs</li>
 								<li>ElasticSearch</li>
 								<li>Photoshop</li>
@@ -95,10 +99,10 @@
 						<li>Built Firebase Authentication base app using <u>Firebase APIs</u>and <u>NodeJs</u> &
 							<u>MongoDB</u>.</li>
 						<li>Built Email templates in ERP (for mutual funds based firm) using <u>Laravel</u>.</li>
-						<li>Integrated Stripe API with <u>CodeIgniter</u>.</li>
-						<li>Worked on REST API based projects using <u>LoopbackJs</u></li>
-						<li>Integrated Paytm APIs using <u>NodeJs</u>.</li>
+						<li>Worked on REST API based projects using <u>NodeJs</u></li>
+						<li>Integrated Paytm APIs using <u>LoopbackJs (NodeJs)</u>.</li>
 						<li>Setup <u>AWS instance</u> for hosting projects.</li>
+						<li>Familiar with various third party APIs like Stripe, Paytm, Spoonacular, Firebase, Infor(HMS), Elavon etc.</li>
 					</ul>
 				</div>
 				<div class="work">
@@ -157,11 +161,17 @@
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
 	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="pdf.js"></script>
 <script>
 	$(document).ready(function () {
-		$('#download').click(function () {
-
-		});
+		let d1 = new Date(Date.now())
+		let d2 = new Date(2017,7,17)
+		
+		let yearsDiff = d1.getFullYear() - d2.getFullYear()
+		let totalMonths = (yearsDiff * 12) +  (d1.getMonth() - d2.getMonth())
+		let months = parseInt((totalMonths % 12) * 100 / 12)
+		let years = parseInt(totalMonths/12)
+		$('.years').text(years + '.' + months + ' years');
 	});
 </script>
 

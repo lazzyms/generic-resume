@@ -3,7 +3,8 @@
 	line-height: 1.5;
 }
 
-a, a:visited {
+a,
+a:visited {
 	color: black;
 	text-decoration: none;
 }
@@ -28,28 +29,29 @@ a:hover {
 }
 
 #contact {
-    list-style-type: none;
-    padding: 0;
+	list-style-type: none;
+	padding: 0;
 	margin: 0;
-	font-size:20px;
+	font-size: 20px;
 }
 
 #contact a:hover {
 	color: rgb(1, 194, 130);
 }
 
-#contact > li {
+#contact>li {
 	display: inline-block;
 	margin-right: 10px;
 }
 
-#contact > li > img {
+#contact>li>img {
 	width: 20px;
 	height: 20px;
 	margin-right: 2px;
 }
 
-#contact > li > img, #contact > li > span {
+#contact>li>img,
+#contact>li>span {
 	display: inline-block;
 	vertical-align: middle;
 }
@@ -57,14 +59,14 @@ a:hover {
 div.hr {
 	width: 100%;
 	height: 1px;
-	margin-top:10px;
+	margin-top: 10px;
 	border: 1px black solid;
 	background: black;
 }
 
 .section .title {
 	text-transform: uppercase;
-	font-size:20px;
+	font-size: 20px;
 	color: rgb(1, 194, 130);
 }
 
@@ -77,7 +79,7 @@ table h2 {
 }
 
 .skillList {
-	margin-right:50px;
+	margin-right: 50px;
 	font-size: 20px;
 }
 
@@ -89,11 +91,11 @@ table h2 {
 	table h2 {
 		font-size: 28px;
 	}
-	
+
 }
 
 
-.skillList > ul >li{
+.skillList ul li {
 	font-size: 20px;	
 }
 
@@ -114,9 +116,9 @@ table h2 {
 	width: 38%;
 }
 
-.section {
+/* .section {
 	font-size: 13px;
-}
+} */
 
 .title {
 	margin-bottom: 5px;
@@ -132,11 +134,17 @@ table h2 {
 	font-size: 20px;
 }
 
-.content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
 	margin: 0;
 }
 
-.project, .work {
+.project,
+.work {
 	margin: 7px 0px;
 }
 
@@ -146,38 +154,38 @@ table h2 {
 
 .thank {
 	background-color: rgb(1, 194, 130);
-	padding:10px;
-	padding-right:100px;
+	padding: 10px;
+	padding-right: 100px;
 	color: beige;
 	text-align: right;
 }
 
 footer {
-	bottom:0;
-	margin-top:50px;
+	bottom: 0;
+	margin-top: 50px;
 }
 
 #bypassme {
 	position: absolute;
-	right:5%;
-	top:10%;
-} 
+	right: 5%;
+	top: 10%;
+}
 
 #download {
 	border-radius: 5px;
-	border:0;
+	border: 0;
 	cursor: pointer;
-	background-color:rgb(1, 194, 130);
-	color:white;
+	background-color: rgb(1, 194, 130);
+	color: white;
 	height: 50px;
 	font-size: 20px;
 	font-family: Lato;
-	padding:20px !important;
+	padding: 20px !important;
 }
 
 #download:hover {
 	border-radius: 5px;
-	border:0;
+	border: 0;
 	cursor: pointer;
 	background-color: rgb(2, 233, 156);
 }
@@ -185,5 +193,10 @@ footer {
 @media print {
 	#bypassme {
 		display: none;
+	}
+
+
+	.skillList {
+		font-size: 20px !important;
 	}
 }
