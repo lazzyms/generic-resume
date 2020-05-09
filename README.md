@@ -1,2 +1,2 @@
 # generic-resume
-Simple Text Resume
+Resume of Mr. Maulik Sompura
