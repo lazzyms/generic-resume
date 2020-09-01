@@ -169,7 +169,7 @@
 		let totalMonths = (yearsDiff * 12) +  (d1.getMonth() - d2.getMonth())
 		let months = parseInt((totalMonths % 12))
 		let years = parseInt(totalMonths/12)
-		$('.years').text(years + ' years ' + (months > 0 ? 'and ' + months : ''));
+		$('.years').text(years + ' years ' + (months > 0 ? 'and ' + months + ' months' : ''));
 	});
 </script>
 
