@@ -1,119 +1,117 @@
 * {
-	font-family: 'Roboto', sans-serif;
-	line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
 }
 
 a,
 a:visited {
-	color: black;
-	text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 a:hover {
-	color: rgb(1, 194, 130);
+  color: rgb(1, 194, 130);
 }
 
 .container {
-	width: 90%;
-	margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .main .title {
-	font-size: 48px;
-	text-transform: uppercase;
-	margin-bottom: 10px;
+  font-size: 48px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .main .title a {
-	color: rgb(1, 194, 130);
+  color: rgb(1, 194, 130);
 }
 
 #contact {
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
-	font-size: 20px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
 }
 
 #contact a:hover {
-	color: rgb(1, 194, 130);
+  color: rgb(1, 194, 130);
 }
 
-#contact>li {
-	display: inline-block;
-	margin-right: 10px;
+#contact > li {
+  display: inline-block;
+  margin-right: 10px;
 }
 
-#contact>li>img {
-	width: 20px;
-	height: 20px;
-	margin-right: 2px;
+#contact > li > img {
+  width: 30px;
+  height: 30px;
+  margin-right: 2px;
 }
 
-#contact>li>img,
-#contact>li>span {
-	display: inline-block;
-	vertical-align: middle;
+#contact > li > img,
+#contact > li > span {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 div.hr {
-	width: 100%;
-	height: 1px;
-	margin-top: 10px;
-	border: 1px black solid;
-	background: black;
+  width: 100%;
+  height: 1px;
+  margin-top: 10px;
+  border: 1px black solid;
+  background: black;
 }
 
 .section .title {
-	text-transform: uppercase;
-	font-size: 20px;
-	color: rgb(1, 194, 130);
+  text-transform: uppercase;
+  font-size: 20px;
+  color: rgb(1, 194, 130);
 }
 
 .content table {
-	text-align: left;
+  text-align: left;
 }
 
 table h2 {
-	font-size: 18px;
+  font-size: 18px;
 }
 
 .skillList {
-	margin-right: 50px;
-	font-size: 20px;
+  margin-right: 50px;
+  font-size: 20px;
 }
 
-@media (max-width:1024px) {
-	.skillList {
-		font-size: 32px;
-	}
+@media (max-width: 1024px) {
+  .skillList {
+    font-size: 32px;
+  }
 
-	table h2 {
-		font-size: 28px;
-	}
-
+  table h2 {
+    font-size: 28px;
+  }
 }
-
 
 .skillList ul li {
-	font-size: 20px;	
+  font-size: 20px;
 }
 
 .inline {
-	display: inline-block;
-	vertical-align: top;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .width-50 {
-	width: 48%;
+  width: 48%;
 }
 
 .width-60 {
-	width: 58%;
+  width: 58%;
 }
 
 .width-40 {
-	width: 38%;
+  width: 38%;
 }
 
 /* .section {
@@ -121,17 +119,17 @@ table h2 {
 } */
 
 .title {
-	margin-bottom: 5px;
-	font-size: 15px;
+  margin-bottom: 5px;
+  font-size: 15px;
 }
 
 .content {
-	margin-top: 5px;
+  margin-top: 5px;
 }
 
 .content p {
-	margin: 0;
-	font-size: 20px;
+  margin: 0;
+  font-size: 20px;
 }
 
 .content h1,
@@ -140,63 +138,121 @@ table h2 {
 .content h4,
 .content h5,
 .content h6 {
-	margin: 0;
+  margin: 0;
 }
 
 .project,
 .work {
-	margin: 7px 0px;
+  margin: 7px 0px;
 }
 
 .work li {
-	font-size: 20px;
+  font-size: 20px;
 }
 
 .thank {
-	background-color: rgb(1, 194, 130);
-	padding: 10px;
-	padding-right: 100px;
-	color: beige;
-	text-align: right;
+  background-color: rgb(1, 194, 130);
+  padding: 10px;
+  padding-right: 100px;
+  color: beige;
+  text-align: right;
 }
 
 footer {
-	bottom: 0;
-	margin-top: 50px;
+  bottom: 0;
+  margin-top: 50px;
 }
 
-#bypassme {
-	position: absolute;
-	right: 5%;
-	top: 10%;
-}
+/* #bypassme {
+  position: absolute;
+  right: 5%;
+  top: 10%;
+  rotate: 45%;
+} */
 
-#download {
-	border-radius: 5px;
-	border: 0;
-	cursor: pointer;
-	background-color: rgb(1, 194, 130);
-	color: white;
-	height: 50px;
-	font-size: 20px;
-	font-family: Lato;
-	padding: 20px !important;
+/* #download {
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  background-color: rgb(1, 194, 130);
+  color: white;
+  height: 50px;
+  font-size: 20px;
+  font-family: Lato;
+  padding: 20px !important;
 }
 
 #download:hover {
-	border-radius: 5px;
-	border: 0;
-	cursor: pointer;
-	background-color: rgb(2, 233, 156);
-}
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  background-color: rgb(2, 233, 156);
+} */
 
 @media print {
-	#bypassme {
-		display: none;
-	}
+  #bypassme {
+    display: none;
+  }
 
+  .skillList {
+    font-size: 20px !important;
+  }
+}
+.box {
+  position: relative;
+  /* height: 400px; */
+  background: #fff;
+  /* box-shadow: 0 0 15px rgba(0,0,0,.1); */
+}
 
-	.skillList {
-		font-size: 20px !important;
-	}
+.ribbon {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  position: absolute;
+  cursor: pointer;
+}
+.ribbon::before,
+.ribbon::after {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  display: block;
+  border: 5px solid rgb(1, 194, 130);
+}
+.ribbon span {
+  position: absolute;
+  display: block;
+  width: 225px;
+  padding: 15px 0;
+  background-color: rgb(1, 194, 130);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  font: 600 12px/1 "Roboto", sans-serif;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.ribbon-top-right {
+  top: -32px;
+  right: -8px;
+}
+.ribbon-top-right::before,
+.ribbon-top-right::after {
+  border-top-color: transparent;
+  border-right-color: transparent;
+}
+.ribbon-top-right::before {
+  top: 0;
+  left: 0;
+}
+.ribbon-top-right::after {
+  bottom: 0;
+  right: 0;
+}
+.ribbon-top-right span {
+  left: -25px;
+  top: 30px;
+  transform: rotate(45deg);
 }
