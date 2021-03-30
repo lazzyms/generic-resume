@@ -204,7 +204,7 @@ $('#download').click(function (e) {
     let accesskey = '3d49e82bf95f515139137c8d60dcb60f'
     let secretKey = MD5('https://me.mauliksompura.in/generic-resumealohamora')
 
-    let baseUrl = 'http://api.pdflayer.com/api/convert'
+    let baseUrl = 'https://api.pdflayer.com/api/convert'
     let myUrl = encodeURI('https://me.mauliksompura.in/generic-resume')
 
     let pageSize = 'Tabloid'
