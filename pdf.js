@@ -210,6 +210,6 @@ $('#download').click(function (e) {
     let pageSize = 'Tabloid'
 
 
-    location.href = baseUrl + '?access_key=' + accesskey + '&secret_key=' + secretKey + '&test=1&document_name=maulik-resume&document_url=' + myUrl + '&use_print_media=1&page_size=' + pageSize + '&viewport=2560x1440&watermark_in_background=0&creator=mauliksompura.in&author=Maulik&custom_unit=px&margin_top=50&margin_bottom=0&margin_left=0&margin_right=0&force=1'
+    location.href = baseUrl + '?access_key=' + accesskey + '&secret_key=' + secretKey + '&document_name=maulik-resume&document_url=' + myUrl + '&use_print_media=1&page_size=' + pageSize + '&viewport=2560x1440&watermark_in_background=0&creator=mauliksompura.in&author=Maulik&custom_unit=px&margin_top=50&margin_bottom=0&margin_left=0&margin_right=0&force=1'
 })
 
