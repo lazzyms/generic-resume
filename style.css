@@ -1,5 +1,5 @@
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.5;
 }
 
@@ -24,14 +24,25 @@ a:hover {
   margin: 0 auto;
 }
 
+.header {
+  display: inline-block !important;
+}
+
 .main .title {
   font-size: 48px;
   text-transform: uppercase;
-  margin-bottom: 10px;
+  margin-bottom: 0 !important;
 }
 
 .main .title a {
   color: #6c7597;
+  padding-left: 1rem;
+}
+
+.role {
+  margin: 0 !important;
+  padding-left: 1.1rem;
+  font-size: 1rem;
 }
 
 #contact {
@@ -41,25 +52,40 @@ a:hover {
   font-size: 20px;
 }
 
-#contact a:hover {
+#contact a,
+#links a {
+  filter: grayscale(100%);
+}
+
+#contact a:hover,
+#links a:hover {
   color: #6c7597;
+  filter: grayscale(0%);
 }
 
-#contact > li {
+#contact > li,
+#links > li {
+  font-size: 1.3rem;
+  padding-left: 1rem;
+}
+
+#contact img,
+#links img {
+  vertical-align: bottom;
+  padding: 5px;
+  height: 1.3rem;
+  width: 1.3rem;
+}
+
+#links {
+  list-style-type: none;
+  padding: 0 !important;
+  /* padding-left: 1rem !important; */
+  margin-top: 0 !important;
+}
+
+#links li {
   display: inline-block;
-  margin-right: 10px;
-}
-
-#contact > li > img {
-  width: 30px;
-  height: 30px;
-  margin-right: 2px;
-}
-
-#contact > li > img,
-#contact > li > span {
-  display: inline-block;
-  vertical-align: middle;
 }
 
 div.hr {
@@ -75,6 +101,35 @@ div.hr {
   text-transform: uppercase;
   font-size: 20px;
   color: #6c7597;
+}
+
+.skills ul {
+  list-style-type: none;
+  padding: 0 !important;
+  padding-left: 0.1rem !important;
+}
+
+.skills li {
+  display: inline-block;
+}
+
+.skills .tag {
+  pointer-events: none;
+  background-color: #f2f2f2;
+  border: none;
+  color: #484848;
+  padding: 6px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+  font-weight: 600;
+  z-index: 1000;
+}
+
+.skills > ul > li > .tag:hover {
+  /* cursor: pointer; */
+  background-color: #eff4ff !important;
 }
 
 .content table {
@@ -224,7 +279,7 @@ footer {
 .ribbon::after {
   position: absolute;
   z-index: -1;
-  content: "";
+  content: '';
   display: block;
   border: 5px solid #dcd3af;
 }
@@ -236,7 +291,7 @@ footer {
   background-color: #dcd3af;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   color: #fff;
-  font: 600 12px/1 "Roboto", sans-serif;
+  font: 600 12px/1 'Roboto', sans-serif;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
   text-transform: uppercase;
   text-align: center;
