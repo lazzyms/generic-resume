@@ -171,8 +171,8 @@
           <p
             class="mt-3 max-w-4xl text-lg text-gray-700 text-justify sm:text-xl md:mt-5 md:max-w-6xl"
           >
-            I am a full-stack developer with <span class="years"></span> years
-            of experience in Javascript. I have built web applications using
+            I am a fullstack developer with <span class="years"></span> years of
+            experience in Javascript. I have built web applications using
             NodeJS, React, Vue, and various databases and APIs. I can implement
             business logic, RESTful services, and responsive UIs from Figma
             designs. I am proficient in GraphQL and Express along with
@@ -255,8 +255,7 @@
                 jQuery
               </div>
             </li>
-          </ul>
-          <ul class="list-none">
+
             <li class="inline-block my-1">
               <div
                 class="text-gray-800 hover:text-yellow-600 font-semibold rounded-full border border-gray-300 hover:border-yellow-400 px-3 py-1"
@@ -278,8 +277,7 @@
                 MySQL
               </div>
             </li>
-          </ul>
-          <ul class="list-none">
+
             <li class="inline-block my-1">
               <div
                 class="text-gray-800 hover:text-yellow-600 font-semibold rounded-full border border-gray-300 hover:border-yellow-400 px-3 py-1"
@@ -345,8 +343,7 @@
                 Google Big Query
               </div>
             </li>
-          </ul>
-          <ul class="list-none">
+
             <li class="inline-block my-1">
               <div
                 class="text-gray-800 hover:text-yellow-600 font-semibold rounded-full border border-gray-300 hover:border-yellow-400 px-3 py-1"
@@ -452,15 +449,26 @@
                           </li>
                           <li>
                             Part of the migration process to convert Monolithic
-                            Architecture into Microservices (serverless using
-                            ECS)
+                            Architecture into <b>Microservices</b> (serverless
+                            using ECS)
                           </li>
                           <li>
-                            Used Apollo GraphQL (NodeJS), DynamoDB, Redis
-                            (ElasticCache), Neptune (Graph DB), Open search,
-                            Google Pub/Sub, Google Big Query.
+                            Used <b>Apollo GraphQL</b> (NodeJS),
+                            <b>DynamoDB</b>, <b>Redis</b> (ElasticCache),
+                            <b>Neptune</b> (Graph DB), <b>Open search</b>,
+                            <b>Google Pub/Sub</b>, <b>Google Big Query</b>.
                           </li>
                         </ul>
+                        <li>
+                          Part of core development team of
+                          <a href="https://rhythmui.com/">Rhythm UI</a
+                          >, a UI Framework for <b>React</b>
+                        </li>
+                        <li>
+                          Building an internal Web widget which can connect with
+                          Jira, can take screenshot or Record a screen, create
+                          and view issues to Jira (with those screenshots), using <b>NestJs</b>, <b>React</b> and <b>JIRA rest APIs</b>.
+                        </li>
                       </ul>
                     </div>
                   </div>
@@ -585,7 +593,7 @@
                           and <b>MySQL Database</b>.
                         </li>
                         <li>
-                          Simple HTML to PDF converting library for PHP.
+                          Built simple HTML to PDF converting library for PHP.
                           <a
                             href="https://github.com/lazzyms/toPdf"
                             rel="noreferrer"
@@ -673,15 +681,15 @@
       let totalMonths = yearsDiff * 12 + (d1.getMonth() - d2.getMonth());
       let months = parseInt(totalMonths % 12);
       let years = parseInt(totalMonths / 12);
-      $('.years').text(
-        years + ' years ' + (months > 0 ? 'and ' + months + ' months' : '')
+      $(".years").text(
+        years + " years " + (months > 0 ? "and " + months + " months" : "")
       );
 
       const latestCommit = await $.get(
-        'https://api.github.com/repos/lazzyms/generic-resume/branches/master'
+        "https://api.github.com/repos/lazzyms/generic-resume/branches/master"
       );
       const updatedAt = new Date(latestCommit.commit.commit.author.date);
-      $('.updatedAt').text(updatedAt.toUTCString());
+      $(".updatedAt").text(updatedAt.toUTCString());
       // console.log(branchHistory.commit.commit.author.date);
     });
   </script>

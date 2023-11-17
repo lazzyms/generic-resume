@@ -24,3 +24,11 @@ body {
     max-width: 1600px !important;
   }
 }
+
+li a {
+  font-style: oblique;
+}
+
+li a:hover {
+  color: rgba(251, 191, 36);
+}
