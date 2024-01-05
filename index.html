@@ -531,29 +531,31 @@
     </p>
   </div>
 </body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="pdf.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script> -->
+<!-- <script src="pdf.js"></script> -->
 <script>
-  $(document).ready(async function () {
-    let d1 = new Date(Date.now());
-    let d2 = new Date(2017, 7, 17);
+  window.location = "http://resume.mauliksompura.in";
 
-    let yearsDiff = d1.getFullYear() - d2.getFullYear();
-    let totalMonths = yearsDiff * 12 + (d1.getMonth() - d2.getMonth());
-    let months = parseInt(totalMonths % 12);
-    let years = parseInt(totalMonths / 12);
-    $(".years").text(
-      years + " years " + (months > 0 ? "and " + months + " months" : "")
-    );
+  // $(document).ready(async function () {
+  // let d1 = new Date(Date.now());
+  // let d2 = new Date(2017, 7, 17);
 
-    const latestCommit = await $.get(
-      "https://api.github.com/repos/lazzyms/generic-resume/branches/master"
-    );
-    const updatedAt = new Date(latestCommit.commit.commit.author.date);
-    $(".updatedAt").text(updatedAt.toUTCString());
-    // console.log(branchHistory.commit.commit.author.date);
-  });
+  // let yearsDiff = d1.getFullYear() - d2.getFullYear();
+  // let totalMonths = yearsDiff * 12 + (d1.getMonth() - d2.getMonth());
+  // let months = parseInt(totalMonths % 12);
+  // let years = parseInt(totalMonths / 12);
+  // $(".years").text(
+  //   years + " years " + (months > 0 ? "and " + months + " months" : "")
+  // );
+
+  // const latestCommit = await $.get(
+  //   "https://api.github.com/repos/lazzyms/generic-resume/branches/master"
+  // );
+  // const updatedAt = new Date(latestCommit.commit.commit.author.date);
+  // $(".updatedAt").text(updatedAt.toUTCString());
+  // console.log(branchHistory.commit.commit.author.date);
+  // });
 </script>
 
 </html>
