@@ -333,87 +333,46 @@
       "entity": "Pardy Panda Studio"
     },
     {
-      "name": "Implicit.io",
-      "description": "Vendstop is an mobile application to enable access to the Smart Vending machine, by scanning the QR code to open a door, automatic wallet debit on item pick, and Paytm payment gateway integrated.",
-      "highlights": [
-        "Managed User authentication and authorization using Firebase Authentication",
-        "Managed Paytm rest api callbacks and hooks",
-        "Integrated an Admin panel to view transaction and update app data dynamically",
-        "Chose MySQL for it's proven transactions performance and concurrency"
-      ],
-      "keywords": [
-        "Node",
-        "Loopback.js",
-        "Firebase Authentication",
-        "Paytm Rest APIs",
-        "React",
-        "Bootstrap",
-        "MySQL"
-      ],
-      "url": "https://play.google.com/store/apps/details?id=com.pardypanda.vendstop",
-      "roles": ["Fullstack Developer"],
-      "entity": "Pardy Panda Studio"
-    },
-    {
       "name": "Nutrition Calculator By MyFitFoods",
-      "description": "Vendstop is an mobile application to enable access to the Smart Vending machine, by scanning the QR code to open a door, automatic wallet debit on item pick, and Paytm payment gateway integrated.",
+      "description": "Nutrition Calculator is an SPA which takes user inputs like Body Mass Index & Body Composition Goal and generate daily target of Macro nutrient intake.",
       "highlights": [
-        "Managed User authentication and authorization using Firebase Authentication",
-        "Managed Paytm rest api callbacks and hooks",
-        "Integrated an Admin panel to view transaction and update app data dynamically",
-        "Chose MySQL for it's proven transactions performance and concurrency"
+        "Managed the calculation logic at client side using React",
+        "Developed UI using Material UI library"
       ],
-      "keywords": [
-        "Node",
-        "Loopback.js",
-        "Firebase Authentication",
-        "Paytm Rest APIs",
-        "React",
-        "Bootstrap",
-        "MySQL"
-      ],
-      "url": "https://play.google.com/store/apps/details?id=com.pardypanda.vendstop",
-      "roles": ["Fullstack Developer"],
+      "keywords": ["React", "MaterialUI"],
+      "url": "https://calculator.myfitfoods.com/",
+      "roles": ["Frontend Developer"],
       "entity": "Pardy Panda Studio"
     },
     {
       "name": "Jhaveri Securities Bonds",
-      "description": "Vendstop is an mobile application to enable access to the Smart Vending machine, by scanning the QR code to open a door, automatic wallet debit on item pick, and Paytm payment gateway integrated.",
+      "description": "Jhaveri Securities Bonds is web portal that lists security bonds issues and users can request to buy/sell it along with order tracking.",
       "highlights": [
-        "Managed User authentication and authorization using Firebase Authentication",
-        "Managed Paytm rest api callbacks and hooks",
-        "Integrated an Admin panel to view transaction and update app data dynamically",
+        "Developed the website using React, Redux and Bootstrap",
+        "Integrated an Admin panel (Laravel) to view transaction and update bond data dynamically",
+        "Developed REST APIs in Laravel",
         "Chose MySQL for it's proven transactions performance and concurrency"
       ],
-      "keywords": [
-        "Node",
-        "Loopback.js",
-        "Firebase Authentication",
-        "Paytm Rest APIs",
-        "React",
-        "Bootstrap",
-        "MySQL"
-      ],
+      "keywords": ["React", "Bootstrap", "MySQL", "Laravel"],
       "url": "https://bond.jhaveritrade.com/",
       "roles": ["Fullstack Developer"],
       "entity": "Pardy Panda Studio"
     },
     {
       "name": "Tugo: Meal Preps Simplified",
-      "description": "Vendstop is an mobile application to enable access to the Smart Vending machine, by scanning the QR code to open a door, automatic wallet debit on item pick, and Paytm payment gateway integrated.",
+      "description": "Tugo is a Meal delivery app based out of UAE.",
       "highlights": [
         "Managed User authentication and authorization using Firebase Authentication",
-        "Managed Paytm rest api callbacks and hooks",
-        "Integrated an Admin panel to view transaction and update app data dynamically",
+        "Developed provider portal in React",
+        "Integrated an Admin panel to view transactions and update app data dynamically",
+        "Developed the REST APIs in CodeIgniter",
         "Chose MySQL for it's proven transactions performance and concurrency"
       ],
       "keywords": [
-        "Node",
-        "Loopback.js",
-        "Firebase Authentication",
-        "Paytm Rest APIs",
         "React",
         "Bootstrap",
+        "Firebase Authentication",
+        "CodeIgniter",
         "MySQL"
       ],
       "url": "https://tugo.ae/",
@@ -422,21 +381,19 @@
     },
     {
       "name": "Cookt",
-      "description": "Vendstop is an mobile application to enable access to the Smart Vending machine, by scanning the QR code to open a door, automatic wallet debit on item pick, and Paytm payment gateway integrated.",
+      "description": "Cookt is a online recipe database along with curated cookbooks. Cookt has immersive cooking experience with AI bot, downloadable cookbooks.",
       "highlights": [
-        "Managed User authentication and authorization using Firebase Authentication",
-        "Managed Paytm rest api callbacks and hooks",
-        "Integrated an Admin panel to view transaction and update app data dynamically",
-        "Chose MySQL for it's proven transactions performance and concurrency"
+        "Developed the entire web app in CodeIgniter and MySQL",
+        "Integrated the custom voice-command feature for recipes.",
+        "Integrated node script that scraps data from input URL or popular recipe sites periodically"
       ],
       "keywords": [
-        "Node",
-        "Loopback.js",
-        "Firebase Authentication",
-        "Paytm Rest APIs",
-        "React",
+        "CodeIgniter",
+        "Javascript",
         "Bootstrap",
-        "MySQL"
+        "MySQL",
+        "Node",
+        "Spoonacular"
       ],
       "url": "https://www.cookt.co.uk/",
       "roles": ["Fullstack Developer"],
@@ -444,29 +401,20 @@
     },
     {
       "name": "ERP System",
-      "description": "Vendstop is an mobile application to enable access to the Smart Vending machine, by scanning the QR code to open a door, automatic wallet debit on item pick, and Paytm payment gateway integrated.",
+      "description": "It's a customized ERP system for PCB manufacturer. Providing interconnection of several modules like CRM, Product, BOM, Sales, Purchase, Inventory and Shipping",
       "highlights": [
-        "Managed User authentication and authorization using Firebase Authentication",
-        "Managed Paytm rest api callbacks and hooks",
-        "Integrated an Admin panel to view transaction and update app data dynamically",
-        "Chose MySQL for it's proven transactions performance and concurrency"
+        "Developed the REST APIs in Phalcon (Fastest PHP framework) and MySQL",
+        "Managed Frontend using AngularJS",
+        "Developed complex logic & UI for BOM, Sales & Purchase and Inventory calculation."
       ],
-      "keywords": [
-        "Node",
-        "Loopback.js",
-        "Firebase Authentication",
-        "Paytm Rest APIs",
-        "React",
-        "Bootstrap",
-        "MySQL"
-      ],
+      "keywords": ["Phalcon", "AngularJS", "Bootstrap", "MySQL"],
       "url": "https://helimp.com/erp-system/",
       "roles": ["Software Engineer"],
       "entity": "Helimp Softomation"
     }
   ],
   "meta": {
-    "canonical": "https://raw.githubusercontent.com/lazzyms/generic-resume/master/resume.json",
+    "canonical": "https://resume.mauliksompura.in",
     "version": "v1.0.0",
     "lastModified": "2024-01-04T15:53:00"
   }

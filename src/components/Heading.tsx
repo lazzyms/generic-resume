@@ -24,6 +24,18 @@ const Heading = ({ basics }: PropType) => {
             {basics.label}
           </p>
         </div>
+        <div className="w-full flex flex-col gap-1 justify-center text-right">
+          <div>
+            <a className="text-gray-700" href={`mailto:${basics.email}`}>
+              {basics.email}
+            </a>
+          </div>
+          <div>
+            <a className="text-gray-700" href={`tel:${basics.phone}`}>
+              {basics.phone}
+            </a>
+          </div>
+        </div>
       </div>
     </>
   );
