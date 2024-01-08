@@ -17,7 +17,7 @@ const Projects = ({ projects }: PropType) => {
             <a href={project.url} className="text-base text-md font-semibold">
               ◎ {project.name}
             </a>
-            <div className="pl-5">
+            <div className="md:pl-5">
               <div className="flex mt-1 gap-1">
                 <p className="text-gray-500">Description:</p>
                 <p className="text-justify text-gray-600">

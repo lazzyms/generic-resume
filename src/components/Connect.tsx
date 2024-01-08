@@ -8,7 +8,7 @@ const Connect = ({ basics, profiles }: PropType) => {
   return (
     <>
       <dl>
-        <div className="mt-2 flex flex-col gap-1 w-full">
+        <div className="flex flex-col gap-1 w-full">
           {profiles.map((profile) => (
             <div key={profile.url}>
               <dd>

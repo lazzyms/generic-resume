@@ -17,12 +17,12 @@ const Timeline = ({ works }: PropType) => {
               </div>
             </div>
 
-            <div className="border-r border-black absolute h-full left-1 sm:left-28 top-2 z-10">
+            <div className="border-r border-black absolute h-full -left-1 sm:left-28 top-2 z-10">
               <i className="fas fa-circle "></i>
               <div className="-top-2 -left-[0.22rem] absolute h-2 w-2 rounded-full bg-gray-100 ring-1 ring-gray-300" />
             </div>
 
-            <div className="w-full">
+            <div className="w-full pl-2 md:pl-0">
               <div className="font-medium">{work.position}</div>
               <div className="sm:mb-4">
                 <a href={work.url}>

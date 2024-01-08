@@ -15,9 +15,9 @@ export default function Home() {
   return (
     <main
       id="content"
-      className="flex min-h-screen flex-col items-center justify-between px-8 py-2"
+      className="flex min-h-screen flex-col items-center justify-between md:px-8 py-2"
     >
-      <div className="max-w-4xl w-full px-8">
+      <div className="max-w-sm md:max-w-4xl w-full md:px-8">
         <Heading basics={resume.basics} />
         <Print />
         <div className="mt-6 border-t border-gray-100">
