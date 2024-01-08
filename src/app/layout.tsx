@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Maulik Sompura | Resume",
   description:
-    "Dedicated and self-driven Software Engineer with over 6 years of experience specializing in web development. Expert in constructing highly scalable backend systems using Node.js (Express, GraphQL, Nest.js), creating pixel-perfect frontend with React (Next.js, Vite, CRA), integrating high-performance databases such as MongoDB, DynamoDB, MySQL, and Redis, and deploying on AWS for maximum scalability. Eager to tackle challenging projects and committed to leveraging technical skills to develop cutting-edge software solutions.",
+    "Experienced Software Engineer with expertise in web development. Specializes in scalable backend systems using Node.js, frontend development with React, and database integration. Proficient in deploying on AWS. Passionate about tackling challenging projects and developing innovative software solutions.",
   keywords: [
     "Full-stack",
     "Developer",
